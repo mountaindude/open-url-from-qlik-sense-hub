@@ -1,5 +1,13 @@
 # open-url-from-qlik-sense-hub
 
+Links to the Butler family of open source tools for Qlik Sense:
+
+- The open source family of Butler tools on GitHub: [github.com/ptarmiganlabs](https://github.com/ptarmiganlabs)
+- The original Butler. Reload alerting, scheduler and much more: [butler.ptarmiganlabs.com](https://butler.ptarmiganlabs.com)
+- Real-time monitoring of Qlik Sense servers: [butler-sos.ptarmiganlabs.com](https://butler-sos.ptarmiganlabs.com)
+- Authentication framework to easily integrate Qlik Sense with various authentication providers: [butler-auth.ptarmiganlabs.com](https://butler-auth.ptarmiganlabs.com)
+- Butler Control-Q is a better managment console: [bcq.ptarmiganlabs.com](https://bcq.ptarmiganlabs.com)
+
 ## Opening any web page from the Qlik Sense hub
 
 The idea simple:
