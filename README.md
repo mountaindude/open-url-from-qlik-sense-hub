@@ -15,6 +15,11 @@ The idea simple:
 Use streams in Qlik Sense Enterprise for both Sense apps and links to any web site/URL.  
 This way it's possible to gather both Sense apps and links to wikis, documentation, help pages, corporate tools etc within Sense streams.
 
+We achieve this by placing a reverse proxy in front of Qlik Sense.  
+In this case [Traefik](https://traefik.io/traefik/) is used.  
+They have an awesome open source version that does everything we need (and much, much more), it's battle proven many times over (2+ billion downloads...) and runs about anywhere you can think of (Linux, Windows, Docker, Kubernetes etc).  
+If you are considering adding a reverse proxy to your client hosted Qlik Sense Enterprise environment, Traefik is an excellent choice.
+
 The Qlik Sense stream might look like this (with some annotations to show what's apps and what's web links):
 
 ![Qlik Sense hub with apps and web links](./qlik-sense-hub-with-web-links.png "Qlik Sense hub with apps and web links")
